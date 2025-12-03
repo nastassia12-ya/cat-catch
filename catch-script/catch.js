@@ -3,15 +3,7 @@
         constructor() {
             console.log("catch.js Start");
 
-            // 初始化属性
-            this.enable = true;  // 捕获开关
-            this.language = navigator.language;   // 语言设置
-            this.isComplete = false; // 捕获完成标志
-            this.catchMedia = [];   // 捕获的媒体数据
-            this.mediaSize = 0; // 捕获的媒体数据大小
-            this.setFileName = null;    // 文件名
-            this.catCatch = null; // UI元素
-
+          
             // 移动面板相关属性
             this.x = 0;
             this.y = 0;
